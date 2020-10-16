@@ -15,8 +15,17 @@ This library helps developer to read data from credit card: card number, expired
 # Usage
 ##### Add the dependencies to your gradle file:
 ```sh
+	
+    allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+
+
     dependencies {
-        implementation 'com.github.Muhammad-Awais-AI:creditCardNfcReader:1.0.0'
+        implementation 'com.github.Muhammad-Awais-AI:Credit-Card-NFC-Reader:3.1.1'
     }
 ```
 
@@ -146,10 +155,10 @@ If you are using Proguard, please add this line to your proguard-rules.pro file
 ```
 
 ### Updates
-* v.1.0.0
+* 3.1.1
     1. Add Ingdirect Bank visa card (Australian Bank)
     2. Add default card type as <b>UNKNOWN</b>.
-
+    3. Add cardholder name extraction  
 
 ### License
 The MIT License (MIT)

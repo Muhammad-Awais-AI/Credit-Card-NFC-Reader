@@ -127,7 +127,7 @@ public class CardNfcAsyncTask extends AsyncTask<Void, Void, Object>{
     }
 
      public String getUserName() {
-        String name = mFirstName+" "+mLastName
+        String name = mFirstName+" "+mLastName;
         return name;
     }
     

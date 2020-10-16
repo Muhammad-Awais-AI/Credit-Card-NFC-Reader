@@ -1,15 +1,13 @@
 # Credit Card NFC Reader
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Credit--Card--NFC--Reader-green.svg?style=true)](https://android-arsenal.com/details/1/3501)
 
 This library helps developer to read data from credit card: card number, expired date, card type.<br>
 <i>Works only with cards that has paypass or paywave technology!</i>
 
-1. [Screenshots](#screenshots)
-2. [Usage](#usage)
-3. [Callbacks](#callbacks)
-4. [Proguard](#proguard)
-5. [Updates](#updates)
-6. [License](#license)
+1. [Usage](#usage)
+2. [Callbacks](#callbacks)
+3. [Proguard](#proguard)
+4. [Updates](#updates)
+5. [License](#license)
 
 
 # Usage

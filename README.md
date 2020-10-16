@@ -4,24 +4,19 @@
 This library helps developer to read data from credit card: card number, expired date, card type.<br>
 <i>Works only with cards that has paypass or paywave technology!</i>
 
-1. [Demo](https://play.google.com/store/apps/details?id=com.pro100svitlo.nfccardread)
-2. [Screenshots](#screenshots)
-3. [Usage](#usage)
-4. [Callbacks](#callbacks)
-5. [Proguard](#proguard)
+1. [Screenshots](#screenshots)
+2. [Usage](#usage)
+3. [Callbacks](#callbacks)
+4. [Proguard](#proguard)
 5. [Updates](#updates)
 6. [License](#license)
 
-# Screenshots
-![alt text](screenshots/Screenshot_20160428-122024.png "Start")
-![alt text](screenshots/Screenshot_20160428-122036.png "Scanning")
-![alt text](screenshots/Screenshot_20160428-122045.png "Ready")
 
 # Usage
 ##### Add the dependencies to your gradle file:
 ```sh
     dependencies {
-        compile 'com.github.Muhammad-Awais-AI:creditCardNfcReader:1.0.0'
+        implementation 'com.github.Muhammad-Awais-AI:creditCardNfcReader:1.0.0'
     }
 ```
 
